@@ -1,0 +1,482 @@
+2022-06-03 20:56:05,675:INFO:Initializing load_model()
+2022-06-03 20:56:05,676:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 20:56:05,701:INFO:Initializing load_model()
+2022-06-03 20:56:05,701:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 20:57:48,010:INFO:Initializing load_model()
+2022-06-03 20:57:48,011:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 20:57:48,031:INFO:Initializing load_model()
+2022-06-03 20:57:48,031:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 20:58:57,427:INFO:Initializing load_model()
+2022-06-03 20:58:57,427:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 20:58:57,443:INFO:Initializing load_model()
+2022-06-03 20:58:57,444:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 20:59:40,598:INFO:Initializing load_model()
+2022-06-03 20:59:40,598:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 20:59:40,614:INFO:Initializing load_model()
+2022-06-03 20:59:40,614:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 21:03:33,046:INFO:Initializing load_model()
+2022-06-03 21:03:33,047:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 21:03:33,066:INFO:Initializing load_model()
+2022-06-03 21:03:33,066:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 21:03:51,712:INFO:Initializing predict_model()
+2022-06-03 21:03:51,713:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='points_grid')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent'...
+                               interaction_constraints='', learning_rate=0.1,
+                               max_delta_step=0, max_depth=9,
+                               min_child_weight=1, missing=nan,
+                               monotone_constraints='()', n_estimators=290,
+                               n_jobs=-1, num_parallel_tree=1,
+                               objective='multi:softprob', predictor='auto',
+                               random_state=123, reg_alpha=0.05, reg_lambda=0.1,
+                               scale_pos_weight=17.8, subsample=0.9,
+                               tree_method='auto', validate_parameters=1,
+                               verbosity=0)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-03 21:03:51,715:INFO:Checking exceptions
+2022-06-03 21:03:51,716:INFO:Preloading libraries
+2022-06-03 21:09:10,309:INFO:Initializing load_model()
+2022-06-03 21:09:10,310:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 21:09:10,335:INFO:Initializing load_model()
+2022-06-03 21:09:10,335:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 21:13:41,378:INFO:Initializing load_model()
+2022-06-03 21:13:41,379:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 21:13:41,397:INFO:Initializing load_model()
+2022-06-03 21:13:41,398:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 21:14:03,434:INFO:Initializing predict_model()
+2022-06-03 21:14:03,435:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='logarithm_points')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent...
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='logarithm_points',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(bagging_fraction=0.6, bagging_freq=0,
+                               feature_fraction=0.5, learning_rate=0.3,
+                               min_child_samples=31, min_split_gain=0,
+                               n_estimators=230, num_leaves=80,
+                               random_state=123, reg_alpha=0.0001,
+                               reg_lambda=3)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-06-03 21:14:03,436:INFO:Checking exceptions
+2022-06-03 21:14:03,437:INFO:Preloading libraries
+2022-06-03 22:16:55,223:INFO:Initializing load_model()
+2022-06-03 22:16:55,223:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:16:55,254:INFO:Initializing load_model()
+2022-06-03 22:16:55,255:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:16:55,524:INFO:Initializing load_model()
+2022-06-03 22:16:55,524:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:20:01,082:INFO:Initializing load_model()
+2022-06-03 22:20:01,083:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:20:01,100:INFO:Initializing load_model()
+2022-06-03 22:20:01,101:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:20:01,344:INFO:Initializing load_model()
+2022-06-03 22:20:01,344:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:20:13,476:INFO:Initializing predict_model()
+2022-06-03 22:20:13,477:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:22:07,651:INFO:Initializing load_model()
+2022-06-03 22:22:07,652:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:22:07,668:INFO:Initializing load_model()
+2022-06-03 22:22:07,669:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:22:07,915:INFO:Initializing load_model()
+2022-06-03 22:22:07,915:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:22:16,377:INFO:Initializing predict_model()
+2022-06-03 22:22:16,377:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:24:11,983:INFO:Initializing load_model()
+2022-06-03 22:24:11,984:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:24:12,002:INFO:Initializing load_model()
+2022-06-03 22:24:12,002:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:24:12,246:INFO:Initializing load_model()
+2022-06-03 22:24:12,247:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:24:18,286:INFO:Initializing predict_model()
+2022-06-03 22:24:18,287:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='logarithm_points')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent...
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='logarithm_points',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(bagging_fraction=0.6, bagging_freq=0,
+                               feature_fraction=0.5, learning_rate=0.3,
+                               min_child_samples=31, min_split_gain=0,
+                               n_estimators=230, num_leaves=80,
+                               random_state=123, reg_alpha=0.0001,
+                               reg_lambda=3)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-06-03 22:24:18,289:INFO:Checking exceptions
+2022-06-03 22:24:18,290:INFO:Preloading libraries
+2022-06-03 22:25:47,089:INFO:Initializing load_model()
+2022-06-03 22:25:47,089:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:25:47,107:INFO:Initializing load_model()
+2022-06-03 22:25:47,107:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:25:47,349:INFO:Initializing load_model()
+2022-06-03 22:25:47,350:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:26,432:INFO:Initializing load_model()
+2022-06-03 22:26:26,433:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:26,449:INFO:Initializing load_model()
+2022-06-03 22:26:26,449:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:26,689:INFO:Initializing load_model()
+2022-06-03 22:26:26,690:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:39,737:INFO:Initializing load_model()
+2022-06-03 22:26:39,738:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:39,757:INFO:Initializing load_model()
+2022-06-03 22:26:39,757:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:39,993:INFO:Initializing load_model()
+2022-06-03 22:26:39,994:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:26:45,646:INFO:Initializing predict_model()
+2022-06-03 22:26:45,647:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:32:37,416:INFO:Initializing load_model()
+2022-06-03 22:32:37,416:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:32:37,435:INFO:Initializing load_model()
+2022-06-03 22:32:37,436:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:32:37,695:INFO:Initializing load_model()
+2022-06-03 22:32:37,696:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:06,157:INFO:Initializing load_model()
+2022-06-03 22:33:06,157:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:06,175:INFO:Initializing load_model()
+2022-06-03 22:33:06,175:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:06,398:INFO:Initializing load_model()
+2022-06-03 22:33:06,399:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:22,061:INFO:Initializing load_model()
+2022-06-03 22:33:22,061:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:22,079:INFO:Initializing load_model()
+2022-06-03 22:33:22,080:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:22,302:INFO:Initializing load_model()
+2022-06-03 22:33:22,303:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:33:25,191:INFO:Initializing predict_model()
+2022-06-03 22:33:25,192:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:34:52,487:INFO:Initializing predict_model()
+2022-06-03 22:34:52,488:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='logarithm_points')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent...
+                             n_jobs=-1, random_state=123, subclass='binary',
+                             target='logarithm_points',
+                             top_features_to_pick_percentage=None)),
+                ('pca', 'passthrough'),
+                ['trained_model',
+                 LGBMRegressor(bagging_fraction=0.6, bagging_freq=0,
+                               feature_fraction=0.5, learning_rate=0.3,
+                               min_child_samples=31, min_split_gain=0,
+                               n_estimators=230, num_leaves=80,
+                               random_state=123, reg_alpha=0.0001,
+                               reg_lambda=3)]]), probability_threshold=None, encoded_labels=True, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None, drift_kwargs=None)
+2022-06-03 22:34:52,490:INFO:Checking exceptions
+2022-06-03 22:34:52,490:INFO:Preloading libraries
+2022-06-03 22:35:08,498:INFO:Initializing predict_model()
+2022-06-03 22:35:08,499:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:39:10,580:INFO:Initializing load_model()
+2022-06-03 22:39:10,581:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:39:10,599:INFO:Initializing load_model()
+2022-06-03 22:39:10,599:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:39:10,823:INFO:Initializing load_model()
+2022-06-03 22:39:10,823:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:39:58,591:INFO:Initializing load_model()
+2022-06-03 22:39:58,591:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:39:58,608:INFO:Initializing load_model()
+2022-06-03 22:39:58,609:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:39:58,835:INFO:Initializing load_model()
+2022-06-03 22:39:58,836:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:37,917:INFO:Initializing load_model()
+2022-06-03 22:40:37,918:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:37,935:INFO:Initializing load_model()
+2022-06-03 22:40:37,935:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:38,153:INFO:Initializing load_model()
+2022-06-03 22:40:38,153:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:57,641:INFO:Initializing load_model()
+2022-06-03 22:40:57,642:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:57,661:INFO:Initializing load_model()
+2022-06-03 22:40:57,662:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:57,889:INFO:Initializing load_model()
+2022-06-03 22:40:57,890:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:40:59,627:INFO:Initializing predict_model()
+2022-06-03 22:40:59,628:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:41:16,232:INFO:Initializing load_model()
+2022-06-03 22:41:16,232:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:41:16,251:INFO:Initializing load_model()
+2022-06-03 22:41:16,252:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:41:16,482:INFO:Initializing load_model()
+2022-06-03 22:41:16,483:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:41:16,550:INFO:Initializing predict_model()
+2022-06-03 22:41:16,550:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-03 22:41:52,924:INFO:Initializing load_model()
+2022-06-03 22:41:52,925:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:41:52,942:INFO:Initializing load_model()
+2022-06-03 22:41:52,943:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:41:53,159:INFO:Initializing load_model()
+2022-06-03 22:41:53,160:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:42:35,222:INFO:Initializing load_model()
+2022-06-03 22:42:35,223:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-03 22:42:35,242:INFO:Initializing load_model()
+2022-06-03 22:42:35,242:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-03 22:42:35,450:INFO:Initializing load_model()
+2022-06-03 22:42:35,450:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-03 22:42:43,316:INFO:Initializing predict_model()
+2022-06-03 22:42:43,317:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='points_grid')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent'...
+                               interaction_constraints='', learning_rate=0.1,
+                               max_delta_step=0, max_depth=9,
+                               min_child_weight=1, missing=nan,
+                               monotone_constraints='()', n_estimators=290,
+                               n_jobs=-1, num_parallel_tree=1,
+                               objective='multi:softprob', predictor='auto',
+                               random_state=123, reg_alpha=0.05, reg_lambda=0.1,
+                               scale_pos_weight=17.8, subsample=0.9,
+                               tree_method='auto', validate_parameters=1,
+                               verbosity=0)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-03 22:42:43,320:INFO:Checking exceptions
+2022-06-03 22:42:43,321:INFO:Preloading libraries
