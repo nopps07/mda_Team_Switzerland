@@ -5955,25 +5955,25 @@ ORDER by similarity DESC;
 //
 // 11. Cleanup the projections of node similarity
 //
-CALL gds.graph.drop('nodesimilarity2012');
+CALL gds.graph.drop('Similarity2012');
 
-CALL gds.graph.drop('nodesimilarity2013');
+CALL gds.graph.drop('Similarity2013');
 
-CALL gds.graph.drop('nodesimilarity2014');
+CALL gds.graph.drop('Similarity2014');
 
-CALL gds.graph.drop('nodesimilarity2015');
+CALL gds.graph.drop('Similarity2015');
 
-CALL gds.graph.drop('nodesimilarity2016');
+CALL gds.graph.drop('Similarity2016');
 
-CALL gds.graph.drop('nodesimilarity2017');
+CALL gds.graph.drop('Similarity2017');
 
-CALL gds.graph.drop('nodesimilarity2018');
+CALL gds.graph.drop('Similarity2018');
 
-CALL gds.graph.drop('nodesimilarity2019');
+CALL gds.graph.drop('Similarity2019');
 
-CALL gds.graph.drop('nodesimilarity2021');
+CALL gds.graph.drop('Similarity2021');
 
-CALL gds.graph.drop('nodesimilarity2022');
+CALL gds.graph.drop('Similarity2022');
 
 
 
@@ -6336,25 +6336,25 @@ LIMIT 5;
 //
 // 16. Cleanup the projections
 //
-CALL gds.graph.drop('louvain2012');
+CALL gds.graph.drop('Louvain2012');
 
-CALL gds.graph.drop('louvain2013');
+CALL gds.graph.drop('Louvain2013');
 
-CALL gds.graph.drop('louvain2014');
+CALL gds.graph.drop('Louvain2014');
 
-CALL gds.graph.drop('louvain2015');
+CALL gds.graph.drop('Louvain2015');
 
-CALL gds.graph.drop('louvain2016');
+CALL gds.graph.drop('Louvain2016');
 
-CALL gds.graph.drop('louvain2017');
+CALL gds.graph.drop('Louvain2017');
 
-CALL gds.graph.drop('louvain2018');
+CALL gds.graph.drop('Louvain2018');
 
-CALL gds.graph.drop('louvain2019');
+CALL gds.graph.drop('Louvain2019');
 
-CALL gds.graph.drop('louvain2021');
+CALL gds.graph.drop('Louvain2021');
 
-CALL gds.graph.drop('louvain2022');
+CALL gds.graph.drop('Louvain2022');
 
 //
 // 17. Create the in memory graphs for Triangle count
@@ -6634,22 +6634,22 @@ LIMIT 5;
 //
 // 21. Clean up the projections
 //
-CALL gds.graph.drop('triangle2012');
+CALL gds.graph.drop('Triangle2012');
 
-CALL gds.graph.drop('triangle2013');
+CALL gds.graph.drop('Triangle2013');
 
-CALL gds.graph.drop('triangle2014');
+CALL gds.graph.drop('Triangle2014');
 
-CALL gds.graph.drop('triangle2015');
+CALL gds.graph.drop('Triangle2015');
 
-CALL gds.graph.drop('triangle2016');
+CALL gds.graph.drop('Triangle2016');
 
-CALL gds.graph.drop('triangle2017');
+CALL gds.graph.drop('Triangle2017');
 
-CALL gds.graph.drop('triangle2018');
+CALL gds.graph.drop('Triangle2018');
 
-CALL gds.graph.drop('triangle2019');
+CALL gds.graph.drop('Triangle2019');
 
-CALL gds.graph.drop('triangle2021');
+CALL gds.graph.drop('Triangle2021');
 
-CALL gds.graph.drop('triangle2022');
+CALL gds.graph.drop('Triangle2022');
