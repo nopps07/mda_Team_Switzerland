@@ -13,7 +13,7 @@ numpy == 1.22.4
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 3
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 3
 # C:\Users\gunho\mda_eurovision\apps\regression.py: 3
-pandas == 1.1.3
+pandas == 1.3.0
 
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 1
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 1
