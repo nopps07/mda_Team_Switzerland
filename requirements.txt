@@ -15,7 +15,7 @@ numpy == 1.22.4
 # C:\Users\gunho\mda_eurovision\apps\regression.py: 3
 pandas == 1.4.0
 
-scipy == 1.8.1
+scipy==1.5.4
 
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 1
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 1
