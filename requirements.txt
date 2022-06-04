@@ -222,7 +222,8 @@ matplotlib==3.5.1
 #mccabe==0.6.1
 
 
-menuinst==1.4.16
+#menuinst==1.4.16
+
 missingno==0.5.1
 mistune==0.8.4
 mkl-fft==1.2.0
