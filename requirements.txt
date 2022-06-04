@@ -207,7 +207,7 @@ lockfile==0.12.2
 lyricsgenius==3.0.1
 Mako==1.1.6
 Markdown==3.3.6
-MarkupSafe==2.0.1
+#MarkupSafe==2.0.1
 marshmallow==3.14.1
 marshmallow-enum==1.5.1
 marshmallow-oneofschema==3.0.1
