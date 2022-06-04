@@ -15,13 +15,16 @@ numpy == 1.22.4
 # C:\Users\gunho\mda_eurovision\apps\regression.py: 3
 pandas == 1.4.0
 
-scipy==1.5.4
-
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 1
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 1
 # C:\Users\gunho\mda_eurovision\apps\regression.py: 1
 pycaret == 2.3.10
 
+
+
+
+
+scipy==1.5.4
 # C:\Users\gunho\mda_eurovision\app.py: 1
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 2
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 2
