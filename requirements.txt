@@ -12,8 +12,9 @@ mpmath==1.1.0
 msgpack==1.0.0
 multimethod==1.8
 multipledispatch==0.6.0
-murmurhash==1.0.7
-navigator-updater==0.2.1
+
+#murmurhash==1.0.7
+#navigator-updater==0.2.1
 
 neo4j==4.4.3
 neo4j-driver==4.3.6
