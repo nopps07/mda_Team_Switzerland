@@ -279,10 +279,10 @@ pycaret==2.3.10
 pycodestyle==2.6.0
 pycosat==0.6.3
 pycountry==22.3.5
-pycparser==2.21
-pyct==0.4.8
-pycurl==7.43.0.6
-pydantic==1.8.2
+#pycparser==2.21
+#pyct==0.4.8
+#pycurl==7.43.0.6
+#pydantic==1.8.2
 
 pyflakes==2.2.0
 Pygments==2.10.0
