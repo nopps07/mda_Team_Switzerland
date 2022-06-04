@@ -71,10 +71,10 @@ colorlover==0.3.0
 commonmark==0.9.1
 community==1.0.0b1
 comtypes==1.1.7
-conda==4.11.0
-conda-build==3.20.5
+#conda==4.11.0
+#conda-build==3.20.5
 
-conda-verify==3.4.2
+#conda-verify==3.4.2
 contextlib2==0.6.0.post1
 croniter==1.0.15
 cryptography==3.4.8
