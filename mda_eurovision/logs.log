@@ -480,3 +480,91 @@
                                verbosity=0)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
 2022-06-03 22:42:43,320:INFO:Checking exceptions
 2022-06-03 22:42:43,321:INFO:Preloading libraries
+2022-06-04 05:17:42,625:INFO:Initializing load_model()
+2022-06-04 05:17:42,626:INFO:load_model(model_name=ECONOMICS_regression_after2016, platform=None, authentication=None, verbose=True)
+2022-06-04 05:17:42,681:INFO:Initializing load_model()
+2022-06-04 05:17:42,682:INFO:load_model(model_name=ECONOMICS_classification, platform=None, authentication=None, verbose=True)
+2022-06-04 05:17:43,026:INFO:Initializing load_model()
+2022-06-04 05:17:43,027:INFO:load_model(model_name=SONGS_clustering, platform=None, authentication=None, verbose=True)
+2022-06-04 05:17:58,341:INFO:Initializing predict_model()
+2022-06-04 05:17:58,344:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='UNSUPERVISED_DUMMY_TARGET')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='most frequent',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         '...
+74    73      20     3  1077  Cluster 2
+75    40      21     8   170  Cluster 2
+76   140      30    17    94  Cluster 0
+77     0      24     4   142  Cluster 2
+78    11       0    23    95  Cluster 3
+79     9       8     6   103  Cluster 2
+80   291      40    15   122  Cluster 1
+81   171      36     3    83  Cluster 0
+82   143     102     6    94  Cluster 0
+83    15      60    22    93  Cluster 3
+84    14     239    19   142  Cluster 1
+85    87     225    24   136  Cluster 1
+86    46      63    25    90  Cluster 3
+87    58     247     8    92  Cluster 0
+88    60      84     7   104  Cluster 2
+89   100      66    18    88  Cluster 0
+90    38      75    10   125  Cluster 2
+91    12      53     2   120  Cluster 2
+92    23      23    17   122  Cluster 3]]), ml_usecase=MLUsecase.CLUSTERING)
+2022-06-04 05:53:54,995:INFO:Initializing predict_model()
+2022-06-04 05:53:54,996:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='points_grid')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent'...
+                               interaction_constraints='', learning_rate=0.1,
+                               max_delta_step=0, max_depth=9,
+                               min_child_weight=1, missing=nan,
+                               monotone_constraints='()', n_estimators=290,
+                               n_jobs=-1, num_parallel_tree=1,
+                               objective='multi:softprob', predictor='auto',
+                               random_state=123, reg_alpha=0.05, reg_lambda=0.1,
+                               scale_pos_weight=17.8, subsample=0.9,
+                               tree_method='auto', validate_parameters=1,
+                               verbosity=0)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-04 05:53:55,001:INFO:Checking exceptions
+2022-06-04 05:53:55,004:INFO:Preloading libraries
+2022-06-04 05:53:59,675:INFO:Initializing predict_model()
+2022-06-04 05:53:59,676:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='classification',
+                                      target='points_grid')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent'...
+                               interaction_constraints='', learning_rate=0.1,
+                               max_delta_step=0, max_depth=9,
+                               min_child_weight=1, missing=nan,
+                               monotone_constraints='()', n_estimators=290,
+                               n_jobs=-1, num_parallel_tree=1,
+                               objective='multi:softprob', predictor='auto',
+                               random_state=123, reg_alpha=0.05, reg_lambda=0.1,
+                               scale_pos_weight=17.8, subsample=0.9,
+                               tree_method='auto', validate_parameters=1,
+                               verbosity=0)]]), probability_threshold=None, encoded_labels=False, drift_report=False, raw_score=False, round=4, verbose=True, ml_usecase=MLUsecase.CLASSIFICATION, display=None, drift_kwargs=None)
+2022-06-04 05:53:59,679:INFO:Checking exceptions
+2022-06-04 05:53:59,681:INFO:Preloading libraries
