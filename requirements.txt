@@ -151,8 +151,8 @@ httpx==0.13.3
 humanize==3.13.1
 hvplot==0.7.3
 hyperframe==5.2.0
-ibm-db==3.0.4
-ibm-db-sa==0.3.6
+#ibm-db==3.0.4
+#ibm-db-sa==0.3.6
 idna==2.10
 ImageHash==4.2.1
 
