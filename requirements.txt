@@ -8,7 +8,8 @@ Pillow == 8.0.1
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 4
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 4
 # C:\Users\gunho\mda_eurovision\apps\regression.py: 4
-numpy == 1.22.4
+#numpy == 1.22.4
+numpy==1.17.3
 
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 3
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 3
