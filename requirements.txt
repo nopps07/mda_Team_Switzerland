@@ -20,10 +20,10 @@
 #argcomplete==1.12.3
 #argh==0.26.2
 
-astropy==4.0.2
-astunparse==1.6.3
-async-generator==1.10
-atomicwrites==1.4.0
+#astropy==4.0.2
+#astunparse==1.6.3
+#async-generator==1.10
+#atomicwrites==1.4.0
 
 autoviz==0.1.39
 Babel==2.9.1
