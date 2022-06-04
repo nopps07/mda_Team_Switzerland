@@ -23,8 +23,9 @@ pycaret == 2.3.10
 
 
 
+#scipy==1.5.4
 
-scipy==1.5.4
+
 # C:\Users\gunho\mda_eurovision\app.py: 1
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 2
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 2
