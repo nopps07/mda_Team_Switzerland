@@ -63,7 +63,7 @@ click-plugins==1.1.1
 click-repl==0.2.0
 clickclick==20.10.2
 
-clyent==1.2.2
+clyent==1.2.1
 
 colorcet==3.0.0
 colorlog==4.8.0
