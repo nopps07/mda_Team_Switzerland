@@ -18,7 +18,7 @@ pandas == 1.4.0
 # C:\Users\gunho\mda_eurovision\apps\classification.py: 1
 # C:\Users\gunho\mda_eurovision\apps\clustering.py: 1
 # C:\Users\gunho\mda_eurovision\apps\regression.py: 1
-pycaret == 2.3.6
+pycaret == 2.3.10
 
 
 # C:\Users\gunho\mda_eurovision\app.py: 1
