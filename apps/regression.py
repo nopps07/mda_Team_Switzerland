@@ -75,7 +75,7 @@ def app():
     features_df = pd.DataFrame([features])
     check = predict_model(model_reg, features_df)
     st.write(check)
-    st.write('Your predicted `Log_POINTS` is', check.iloc[0]["Label"])
+    st.write('Your predicted `LOG_POINTS` is', check.iloc[0]["Label"], 'in `POINTS` it is', 10**check.iloc[0]["Label"])
 
     st.subheader('TABLE')
     st.write('You can predict with the ready-to-import table')
