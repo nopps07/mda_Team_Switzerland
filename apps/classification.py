@@ -23,17 +23,64 @@ def app():
     #st.sidebar.info('This app is created to predict Eurovision Score')
     #st.sidebar.success('https://eurovision.tv/')
 
-    #st.sidebar.image(image)
+    st.sidebar.info('This app is created to predict Eurovision Score')
+    st.sidebar.success('https://eurovision.tv/')
 
-    #st.title("Eurovision Score prediction (ECONOMICS)")
+    st.sidebar.image(image)
 
-    #if add_selectbox == 'Scores (classification)':
+    Log_GDP = st.sidebar.slider(label='logarithm_gdppercapita', min_value=3.460,
+                                max_value=5.00,
+                                value=0.001,
+                                step=0.001)
+
+    language = st.sidebar.selectbox("choose your language",
+                                    ("Germanic", "Uralic", "Italic",
+                                     "Celtic", "Hebrew", "Hellenic/Italic",
+                                     "Afro-Asiatic", "Turkic", "Hellenic",
+                                     "Balto-Slavic", "Albanian/Balto-Slavic", "Albanian",
+                                     "Armenian", "Kartvelian")
+                                    )
+
+    pillar_ind = st.sidebar.slider(label='pillar_ind', min_value=1.0,
+                                   max_value=3.0,
+                                   value=1.0,
+                                   step=1.0)
+    politicalattitude = st.sidebar.slider(label='politicalattitude', min_value=0.0,
+                                          max_value=2.0,
+                                          value=1.0,
+                                          step=1.0)
+    youth_inrate = st.sidebar.slider(label='youth_inrate', min_value=0.00,
+                                     max_value=0.050,
+                                     value=0.001,
+                                     step=0.001)
+    culturegoodsexp_inrate = st.sidebar.slider(label='culturegoodsexp_inrate', min_value=0.00,
+                                               max_value=0.050,
+                                               value=0.001,
+                                               step=0.001)
+
+    # st.title("Eurovision Score prediction (ECONOMICS)")
+
+    # add_selectbox == 'Scores (regression)':
     st.title('Classification')
 
     st.write('This is the `classification` page of the app')
 
-    #dashboard(model_cla, display_format='streamlit')
+    st.subheader('RANDOM VALUES')
+    st.write('You can predict with random values from the sidebar')
 
+    features = {'logarithm_gdppercapita': Log_GDP, 'language': language,
+                'pillar_ind': pillar_ind, 'politicalattitude': politicalattitude,
+                'youth_inrate': youth_inrate, 'culturegoodsexp_inrate': culturegoodsexp_inrate,
+                }
+    features_df = pd.DataFrame([features])
+    check = predict_model(model_cla, features_df)
+    st.write(check)
+    st.write('Your predicted `POINTS_GRID` is', check.iloc[0]["Label"])
+
+
+    st.subheader('TABLE')
+    st.write('You can predict with the ready-to-import table')
+    #dashboard(model_cla, display_format='streamlit')
     file_upload = st.file_uploader("Upload csv file for predictions", type=["csv"])
 
     if file_upload is not None:

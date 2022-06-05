@@ -51,6 +51,8 @@ def app():
     features_df = pd.DataFrame([features])
 
     st.table(features_df)
+    
+    predict_model(model_clu, features_df)
 
     if st.button('Predict'):
         prediction = predict_model(model_clu, features_df)
